@@ -1,42 +1,41 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
+.para, .small-para{
+  font-weight: 900px;
+  font-size: 40px;
+  color: blue;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.para {
-  font-size: 22px;
-}
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+p.small-para{
+  font-size: auto;
+  color:green;
   font-size: 20px;
+  font-weight:400px;
+  
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+#confirm-button {
+  color: yellow;
+  background-color: black;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
+button.cancel{
+color: black;
+font-weight: 500px;
+background-color: yellow;
 }
+
+.text{
+  color:maroon
+}
+
+div .text{
+  color: blanchedalmond;
+}
+
+div.child{
+  color: blue;
+}
+
